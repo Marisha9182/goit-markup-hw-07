@@ -3,10 +3,10 @@
         max-width: 428px;
     }
     .container.mini-mobile{
-        max-width: 264px;
+        max-width: 294px;
     }
     .container.container-mini{
-        min-width: 264px;
+        min-width: 294px;
     }
     /* --------TEAM-------- */
     .main-container{
@@ -15,5 +15,10 @@
     .footer-send-email{
         max-width: 398px;
     }
-    
+    .main{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tablet.jpg);
+        /* max-width: 768px; */
+        background-size: cover;
+        padding-bottom: 108px;
+    }
 } 
