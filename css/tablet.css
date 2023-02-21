@@ -5,6 +5,18 @@
     .container.container-mini{
         max-width: 552px;
     }
+    /* --------MAIN--------- */
+    .main{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tablet.jpg);
+        max-width: 768px;
+        padding-bottom: 108px;
+    }
+    .main-title{
+font-size: 56px;
+line-height: 1.07;
+max-width: 496px;
+margin-bottom: 40px;
+    }
     /* -----TEAM----- */
     .team{
         padding-bottom: 104px;
@@ -26,6 +38,7 @@
         row-gap: 72px;
     }
     /* --------HERO-------- */
+    
     .hero-list{
         gap: 24px;
         row-gap: 72px;
@@ -40,5 +53,28 @@
     }
     .hero-subtitle{
         text-align: left;
+    }
+    /* ---------FOOTER----------- */
+    .footer-container{
+        max-width: 552px;
+        justify-content: flex-start;
+    }
+    .footer-logo{
+        display: block;
+    }
+    .footer-soc{
+        margin-left: 24px;
+    }
+    .footer-title-icon{
+        margin-top: 0;
+        display: block;
+    }
+    .footer-subscribe-title{
+        text-align: left;
+    }
+    .footer-send-email{
+        width: 264px;
+        margin-right: 24px;
+        margin-bottom: 0;
     }
 }

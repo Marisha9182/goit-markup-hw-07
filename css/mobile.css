@@ -5,6 +5,15 @@
     .container.mini-mobile{
         max-width: 264px;
     }
+    .container.container-mini{
+        min-width: 264px;
+    }
     /* --------TEAM-------- */
+    .main-container{
+        max-width: 100%;
+    }
+    .footer-send-email{
+        max-width: 398px;
+    }
     
 } 
