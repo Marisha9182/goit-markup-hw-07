@@ -21,4 +21,17 @@
         background-size: cover;
         padding-bottom: 108px;
     }
+    .mob-menu-adress-tel {
+        font-family: 'Roboto';
+    font-style: normal;
+        font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    }
+    .mob-soc-list {
+        gap: 56px;
+    }
+    .container-menu{
+        max-width: 428px;
+    }
 } 
