@@ -10,11 +10,10 @@
     }
     /* -----------HEADER------------ */
     .header-container{
-        height: 76px;
         max-width: 1158px;
     }
     .current::after {
-        bottom: -30px;
+        bottom: -27px;
     }
     .header-item {
         font-weight: 500;

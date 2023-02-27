@@ -31,7 +31,10 @@
     .mob-soc-list {
         gap: 56px;
     }
-    .container-menu{
+    /* .container-menu{
         max-width: 428px;
+    } */
+    .customers-iteam {
+        width: 190px;
     }
 } 
