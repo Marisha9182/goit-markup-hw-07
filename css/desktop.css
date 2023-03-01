@@ -82,12 +82,20 @@
     padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
     background-position: center;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
+@media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .main{
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1_desk@2x.jpg);
+        }
+    }
+
 .main-title {
     font-size: 56px;
 line-height: 1.07;

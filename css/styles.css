@@ -49,9 +49,8 @@ ul{
 
 img{
     display: block;
-    width: 100%;
-    height: auto;
     max-width: 100%;
+    height: auto;
 }
 
 .container{
@@ -227,13 +226,22 @@ letter-spacing: 0.02em;
     background-color: #2E2F42;
     padding-top: 112px;
     padding-bottom: 112px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg_mob@1x.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     /* max-width: 428px; */
     margin-left: auto;
     margin-right: auto;
+}
+
+@media (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+    .main{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg_mob@2x.jpg);
+    }
 }
 
 .main-container{
